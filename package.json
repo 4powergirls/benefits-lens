@@ -1,0 +1,13 @@
+{
+  "name": "benefits-lens",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~4.13.3",
+    "mongoose": "~4.1.10",
+    "body-parser": "~1.14.1",
+    "method-override": "~2.3.5",
+    "bootstrap": "~3.3.5",
+    "angular": "~1.4.7",
+    "angular-route": "~1.4.7"
+  }
+}
