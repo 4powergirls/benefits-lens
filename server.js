@@ -25,3 +25,4 @@ require("./app/routes")(app); // pass our application into our routes
 app.listen(port);	
 console.log("Magic happens on port " + port); 			// shoutout to the user
 module.exports = app; 						// expose app
+
