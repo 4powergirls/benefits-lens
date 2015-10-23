@@ -1,6 +1,10 @@
 {
   "name": "benefits-lens",
   "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint *.js app/*.js config/*.js public/js/*.js; true"
+  },
   "dependencies": {
     "express": "~4.13.3",
     "mongoose": "~4.1.10",
@@ -9,5 +13,12 @@
     "bootstrap": "~3.3.5",
     "angular": "~1.4.7",
     "angular-route": "~1.4.7"
+  },
+  "repository": {
+    "type" : "git",
+    "url"  : "https://github.com/sriprabha/FoodiesListv0.1.git"
+  },
+  "devDependencies": {
+    "eslint": "^1.7.3"
   }
 }

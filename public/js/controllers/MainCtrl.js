@@ -1,3 +1,3 @@
-angular.module('MainCtrl', []).controller('MainController', function($scope) {
-  $scope.tagline = 'Benefits Viewer!';
+angular.module("MainCtrl", []).controller("MainController", function($scope) {
+  $scope.tagline = "Benefits Viewer!";
 });

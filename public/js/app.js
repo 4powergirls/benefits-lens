@@ -1,1 +1,1 @@
-angular.module('benefitsApp', ['ngRoute', 'appRoutes', 'MainCtrl']);
+angular.module("benefitsApp", ["ngRoute", "appRoutes", "MainCtrl"]);
