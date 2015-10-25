@@ -9,16 +9,15 @@
     "express": "~4.13.3",
     "mongoose": "~4.1.10",
     "body-parser": "~1.14.1",
-    "method-override": "~2.3.5",
-    "bootstrap": "~3.3.5",
-    "angular": "~1.4.7",
-    "angular-route": "~1.4.7"
+    "method-override": "~2.3.5"
   },
   "repository": {
-    "type" : "git",
-    "url"  : "https://github.com/sriprabha/FoodiesListv0.1.git"
+    "type": "git",
+    "url": "https://github.com/sriprabha/FoodiesListv0.1.git"
   },
   "devDependencies": {
-    "eslint": "^1.7.3"
+    "eslint": "^1.7.3",
+    "jasmine": "^2.3.2",
+    "karma": "^0.13.14"
   }
 }
