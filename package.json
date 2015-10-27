@@ -1,0 +1,27 @@
+{
+  "name": "benefits-lens",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint *.js app/*.js config/*.js public/js/*.js; true"
+  },
+  "dependencies": {
+    "express": "~4.13.3",
+    "mongoose": "~4.1.10",
+    "body-parser": "~1.14.1",
+    "method-override": "~2.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sriprabha/FoodiesListv0.1.git"
+  },
+  "devDependencies": {
+    "eslint": "^1.7.3",
+    "jasmine": "^2.3.2",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.14",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-firefox-launcher": "^0.1.6",
+    "karma-jasmine": "^0.3.6"
+  }
+}
