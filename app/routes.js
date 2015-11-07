@@ -1,3 +1,6 @@
+var Benefits = require('./models/benefits');
+var Company = require('./models/company');
+
 module.exports = function(app) {
 
   // server routes ===========================================================
