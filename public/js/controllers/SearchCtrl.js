@@ -1,3 +1,3 @@
-angular.module("SearchCtrl", []).controller("SearchController", function($scope) {
+angular.module("SearchCtrl", ["ui.bootstrap-slider"]).controller("SearchController", function($scope) {
   $scope.tagline = "Search!";
 });
