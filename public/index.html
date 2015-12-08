@@ -7,8 +7,9 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css"> <!-- custom styles -->
     <link rel="stylesheet" href="libs/seiyria-bootstrap-slider/css/bootstrap-slider.css">
+    <link rel="stylesheet" href="libs/angular-ui-switch/angular-ui-switch.css">
+    <link rel="stylesheet" href="css/style.css">
 
   </head>
   <body ng-controller="HomeController">
@@ -29,13 +30,14 @@
       </div>
     </nav>
     <!-- ANGULAR DYNAMIC CONTENT -->
-    <div ng-view></div>
+    <div ng-view class="ngClass"></div>
           <!-- JS -->
     <script src="libs/angular/angular.js"></script>
     <script src="libs/angular-route/angular-route.js"></script>
     <script src="libs/jquery/dist/jquery.js"></script>
     <script src="libs/angular-bootstrap-slider/slider.js"></script>
     <script src="libs/seiyria-bootstrap-slider/js/bootstrap-slider.js"></script>
+    <script src="libs/angular-ui-switch/angular-ui-switch.js"></script>
 
         <!-- ANGULAR CUSTOM -->
     <script src="js/appRoutes.js"></script>
