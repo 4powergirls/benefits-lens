@@ -4,9 +4,10 @@ html, body {
 }
 
 .slider-container{
-  margin-top: 18px;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding-top: 2px;
+  height: 45px;
 }
 
 .slider-container .switch-text {
@@ -72,8 +73,9 @@ html, body {
 
 /*Override switch styles*/
 .switch {
-  margin-left:10px;
+  margin-right:90px;
   width: 70px;
+  float: right;
 }
 
 .switch.checked small {

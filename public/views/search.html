@@ -4,31 +4,31 @@
       <h4> Filters </h4>
       <div class="slider-container">
         <span>Paternity Leave</span>
-        <slider ng-model="sliders.sliderValue" min="testOptions.min" step="testOptions.step" max="testOptions.max" value="testOptions.value"></slider>
+        <slider ng-model="sliders.paternity" min="paternity.min" step="paternity.step" max="paternity.max" value="paternity.value"></slider>
       </div>
       <div class="slider-container">
         <span>Maternity Leave</span>
-        <slider ng-model="sliders.sliderValue" min="testOptions.min" step="testOptions.step" max="testOptions.max" value="testOptions.value"></slider>
+        <slider ng-model="sliders.maternity" min="maternity.min" step="maternity.step" max="maternity.max" value="maternity.value"></slider>
       </div>
       <div class="slider-container">
         <span>Paid Time Off</span>
-        <slider ng-model="sliders.sliderValue" min="testOptions.min" step="testOptions.step" max="testOptions.max" value="testOptions.value"></slider>
+        <slider ng-model="sliders.pto" min="pto.min" step="pto.step" max="pto.max" value="pto.value"></slider>
       </div>
       <div class="slider-container">
         <span class="switch-text"> Mother's room </span>
-        <switch id="enabled" name="enabled" ng-model="enabled" on="Yes" off="No" class="green"/>
+        <switch id="enabled" name="enabled" ng-model="mothersRoom" on="Yes" off="No" class="green"/>
       </div>
       <div class="slider-container">
         <span class="switch-text"> Medical Insurance </span>
-        <switch id="enabled" name="enabled" ng-model="enabled" on="Yes" off="No" class="green"/>
+        <switch id="enabled" name="enabled" ng-model="medicalInsurance" on="Yes" off="No" class="green"/>
       </div>
       <div class="slider-container">
         <span class="switch-text"> Telecommute </span>
-        <switch id="enabled" name="enabled" ng-model="enabled" on="Yes" off="No" class="green"/>
+        <switch id="enabled" name="enabled" ng-model="telecommute" on="Yes" off="No" class="green"/>
       </div>
       <div class="slider-container">
         <span class="switch-text"> Onsite day care </span>
-        <switch id="enabled" name="enabled" ng-model="enabled" on="Yes" off="No" class="green"/>
+        <switch id="enabled" name="enabled" ng-model="dayCare" on="Yes" off="No" class="green"/>
       </div>
     </div>
     <div class="col-md-5">
