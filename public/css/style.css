@@ -1,0 +1,83 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.slider-container{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 2px;
+  height: 50px;
+}
+
+.slider-container .switch-text {
+  vertical-align: top;
+}
+
+.left-hand-options{
+  border-right: 1px solid black;
+}
+
+.left-hand-options h4{
+  text-align: center;
+}
+
+.card-container {
+  border: 1px solid black;
+  width: 100%;
+  background: none;
+  padding: 2px;
+  margin-top: 10px;
+}
+
+.side-panel {
+  margin-top: 45px;
+  width: 97.5%;
+  float: right;
+}
+
+.ngClass {
+  height: 100%;
+}
+
+.results-panel {
+  margin-top: 10px;
+}
+
+
+
+
+
+
+/*Override bootstrap styles*/
+.navbar {
+  margin-bottom: 0px;
+}
+
+.col-md-4 .glyphicon {
+  top: 81px;
+  
+}
+
+.col-md-4 .panel {
+  border: none;
+}
+
+.col-md-4 .panel-body {
+  border: 1px solid black;
+}
+
+.row, .col-md-4, .col-md-3, .container-fluid {
+  height: 100%;
+}
+
+/*Override switch styles*/
+.switch {
+  margin-right:90px;
+  width: 70px;
+  float: right;
+}
+
+.switch.checked small {
+  left: 39px;
+}

@@ -5,6 +5,7 @@
     "bootstrap": "latest",
     "angular": "latest",
     "angular-route": "latest",
-    "angular-bootstrap-slider": "latest"
+    "angular-bootstrap-slider": "latest",
+    "angular-ui-switch": "latest"
   }
 }
