@@ -4,19 +4,19 @@
       <h4> Filters </h4>
       <div class="slider-container">
         <span>Paternity Leave</span>
-        <slider ng-model="filter.paternity" min="filter.min" step="filter.step" max="filter.max" value="filter.paternity.value" on-stop-slide="onPaternityStop($event, value)"></slider>
+        <slider ng-model="filter.paternity" min="filter.size.min" step="step" max="filter.size.max" value="filter.paternity.value" on-stop-slide="onPaternityStop($event, value)"></slider>
       </div>
       <div class="slider-container">
         <span>Maternity Leave</span>
-        <slider ng-model="filter.maternity" min="filter.min" step="filter.step" max="filter.max" value="filter.maternity.value" on-stop-slide="onMaternityStop($event, value)"></slider>
+        <slider ng-model="filter.maternity" min="filter.size.min" step="step" max="filter.max" value="filter.maternity.value" on-stop-slide="onMaternityStop($event, value)"></slider>
       </div>
       <div class="slider-container">
         <span>Paid Time Off</span>
-        <slider ng-model="filter.pto" min="filter.min" step="filter.step" max="filter.max" value="filter.pto.value" on-stop-slide="onPtoStop($event, value)"></slider>
+        <slider ng-model="filter.pto" min="filter.min" step="step" max="filter.max" value="filter.pto.value" on-stop-slide="onPtoStop($event, value)"></slider>
       </div>
       <div class="slider-container">
         <span class="switch-text"> Mother's room </span>
-        <switch id="enabled" name="enabled" ng-model="filter.mothersRoomEnabled" on="Yes" off="No" class="green" ng-change="mothersRoomChanged($event, value)"/>
+        <switch id="enabled" name="enabled" ng-model="filter.mothersRoom" on="Yes" off="No" class="green" ng-change="mothersRoomChanged($event, value)"/>
       </div>
       <div class="slider-container">
         <span class="switch-text"> Medical Insurance </span>
@@ -24,11 +24,11 @@
       </div>
       <div class="slider-container">
         <span class="switch-text"> Telecommute </span>
-        <switch id="enabled" name="enabled" ng-model="filter.telecommuteEnabled" on="Yes" off="No" class="green" ng-change="telecommuteChanged($event, value)"/>
+        <switch id="enabled" name="enabled" ng-model="filter.telecommute" on="Yes" off="No" class="green" ng-change="telecommuteChanged($event, value)"/>
       </div>
       <div class="slider-container">
         <span class="switch-text"> Onsite day care </span>
-        <switch id="enabled" name="enabled" ng-model="filter.dayCareEnabled" on="Yes" off="No" class="green" ng-change="daycareChanged($event, value)"/>
+        <switch id="enabled" name="enabled" ng-model="filter.onsiteDayCare" on="Yes" off="No" class="green" ng-change="daycareChanged($event, value)"/>
       </div>
     </div>
     <div class="col-md-5">
